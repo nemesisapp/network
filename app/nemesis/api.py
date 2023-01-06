@@ -34,8 +34,6 @@ HEADER="NEMESISNT"
 ERROR= 0x324
 
 TRX_MSG_FEE = [1,20] #  for direct messaging , and SHOULD be for group messaging.
-NEMESIS_WALLET ="TCeCDNKUubi6zH2fXT33wFH5JMKxwgpPWU" #our address (fee)
-#NEMESIS_WALLET ="TGR8WXbGPBqXrGKB5z5oAmPf2wyv1y3Htq" #our company's address (fee)
 GARAGE_URL = "https://localhost:3243/db" # URL for Garage Server (buying domain soon.)
 INSUFFICIENT_FUNDS= 0x23
 
@@ -139,10 +137,3 @@ class Goblin(object):
 
 
         
-
-
-if __name__ == '__main__':
-    gob = Goblin("0DDA1FF5CC0D2A24CA462931F7272FF8A119DC0ACC08FA3562EC9009526AEDC3")
-   #     gob.startDaemon()
-    REC="TMtCrVeEThyHPo7vuuRvRXEZpbwLuAifzn" #scam receiver
-    pubkey = open("./pub.pem","rb").read()
